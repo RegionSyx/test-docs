@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-docs"
+  description: "test-docs"
+  annotations:
+    github.com/project-slug: RegionSyx/test-docs
+    backstage.io/techdocs-ref: url:https://github.com/RegionSyx/test-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "RegionSyx"
